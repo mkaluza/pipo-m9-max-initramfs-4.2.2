@@ -1,0 +1,26 @@
+on fs
+    mkdir /tmp 0777 root root
+    mount tmpfs tmpfs /tmp mode=1777,size=512M
+    export TMPDIR=/tmp
+
+on post-fs
+    start sysinit
+
+on property:sys.boot_completed=1
+    start userinit
+ 
+# sysinit (/system/etc/init.d)
+service sysinit /system/bin/sysinit
+    user root
+    group root
+    oneshot
+
+service userinit /system/bin/userinit
+    user root
+    group root
+    oneshot
+
+# adb over network
+on property:service.adb.tcp.port=5555
+    stop adbd
+    start adbd
