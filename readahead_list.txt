@@ -1,0 +1,24 @@
+/system/app/Launcher2.apk
+/system/app/SystemUI.apk
+/system/app/SettingsProvider.apk
+/system/app/Phonesky.apk
+/system/app/KeyChain.apk 0:24576
+/system/app/DownloadProvider.apk 0:16384,610304:176128
+/system/app/Bluetooth.apk 0:16384,204800:385024
+/system/app/PhotoTable.apk 0:16384,380928:69632
+/system/app/LatinIME.apk 0:16384,835584:16384,10563584:626688
+/system/app/DeskClock.apk 0:16384,774144:49152,884736:131072,1105920:671744
+/system/app/Phone.apk
+/system/app/Contacts.apk 0:147456,1572864:49152,1720320:131072,1904640:249856,2334720:131072,2609152:753664
+/system/framework/framework-res.apk
+/system/framework/framework.jar
+/system/framework/core.jar
+/system/framework/bouncycastle.jar
+/system/framework/ext.jar
+/system/framework/services.jar
+/system/framework/svc.jar
+/system/framework/android.policy.jar
+/system/framework/android.test.runner.jar
+/system/framework/uiautomator.jar
+/system/framework/settings.jar
+/system/framework/monkey.jar
